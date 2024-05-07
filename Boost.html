@@ -21,27 +21,80 @@
         body{
             color:#4F5665
         }
-        header nav, ul,
-        header.call{
+        header nav, ul {
             display: flex;
             justify-content: space-around;
             text-transform: capitalize;
             align-items: center;
-            gap: 10px;
+            gap: 20px;
         }
+        .call{
+        display:flex;
+
+        }
+
         .bold{
             font-weight: 900;
         }
-    </style>
-</head>
+        .boarder{
+            border: 1px solid;
+            border-radius: 50px;
+           padding: 18.2px 45px 18.2px 45px;
+            color: #F53855;
+        }
+        html{
+            font-family: "rubik","robot","sans-sarif";
+            font-size: larger;
+        }
+        .maintain{
+            margin-top: 60px;
+        }
+        .body{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 89.12px;
+            margin-right: 21px;
+            margin-bottom: 16.77px;
+            
+        }
+        .button{
+            background-color:#F54747 ;
+            border: 2px solid;
+            border-radius: 10px;
+         padding: 17.5px 98.28px 17.5px 98.28px;
+         
+
+        }
+        .huge{
+            margin-bottom: 72.23px;
+        }
+        .hding{
+            margin-bottom: 16.77px
+        }
+        
+           </style>
+           <link rel="preconnect" href="https://fonts.googleapis.com">
+           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+           <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+           
+        </head>
 <body>
-    <header>
+    <header class="maintain">
     <nav>
-        <div classs="call">
-            <img src="assets/imge/Standard Collection 27logo.jpg"/>
-            <P>laseles <span class="bold">VPN</span></P>
-        </div>
-        <div>
+        <ul><li>
+            <img src="./assets/image/Standard Collection 27logo.jpg "/>
+
+        </li>
+        <li>
+
+        <p>laseles <span class="bold">VPN</span></p>
+
+        </li>
+    </ul>
+                
+
+
         <ul>
             <Li> <a href="">about</a></Li>
             <Li><a href="">features</a></Li>
@@ -49,15 +102,27 @@
             <li> <a href="">testomials</a></li>
             <li> <a href="">help</a><li>  
         </ul>
-        </div>
-        <div>
             <ul>
                 <li> <a href="">sign in</a></li>
-                <li> <a href="">sign up</a></li>
+                <li> <a href="" class="boarder">sign up</a></li>
             </ul>
-        </div>
     </nav>
     </header>
+
+<div class="body">
+    <div>
+        <h1 class="hding">want any thing to be <br> easy qith leaseles vpn</h1>
+
+        <p class="huge"> provide a network for all your needs with easy and <br>fun using laseles vpn discover intresting features from us</p>
+        
+        <br>
+        <a href="" class="button">Get started</a>
+     
+    </div>
+
+    <img src="./assets/image/Illustration 1.png"/>
+
+</div>
     
 </body>
 </html>
